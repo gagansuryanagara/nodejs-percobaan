@@ -3,7 +3,7 @@ let tunjanganJabatan = 750000
 let bpjs = (2.5/100) * gajiPokok
 let netGaji = gajiPokok + tunjanganJabatan - bpjs
 
-function slipGaji() {
+function slipGaji(nama, periode) {
     let hasil = 
     `Gaji karyawan Periode Juni 2024 \n` +
     `=============================== \n` +
